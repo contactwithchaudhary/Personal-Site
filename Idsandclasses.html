@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Ids and Classes</title>
+</head>
+<body>
+ <h3>Ids and Classes in HTML</h3>
+
+ <!-- Id is used to give a name to an element and we can track that element via id and it must be unique for each element -->
+<!-- Class is a bunch of a predefine code and it can be used with different element and multiple times -->
+
+<div id="mainbox" class="redBg">
+ This is a main Box.
+</div>
+
+<span class="redBg blackBorder"> This is a Span.</span>
+
+<!-- Emmet Shortcut = . is used for Class and # is used for ids -->
+<!-- element name.class name -->
+<!-- element name#idname -->
+<span class="redBg"></span>
+<span id="mainSpan"></span>
+
+<!-- Emmet takes div tag by default -->
+<!-- .class name (redBg) then result ="<div class="regBg"></div>" -->
+<!-- #name#idname (mainDiv) then result = "<div id="mainDiv"></div>"-->
+<div class="regBg"></div>
+<div id="mainDiv"></div>
+
+<!-- Creating multiple elements with multile class or ids -->
+<!-- span.myclass1.myclass2.myclass3*3 -->
+ <span class="myclass1 myclass2 myclass3">First</span>
+ <span class="myclass1 myclass2 myclass3">Second</span>
+ <span class="myclass1 myclass2 myclass3">Third</span>
+
+ <!-- span#myspan1#myspan2#myspan3*3 -->
+ <span id="myspan3">First</span>
+ <span id="myspan3">Second</span>
+ <span id="myspan3">Third</span>
+
+
+
+</body>
+</html>
